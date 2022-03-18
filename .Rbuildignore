@@ -1,0 +1,6 @@
+^LICENSE\.md$
+^in\.js$
+^node_modules$
+^package\.json$
+^package-lock\.json$
+^test\.R$
