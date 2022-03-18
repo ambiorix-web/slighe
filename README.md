@@ -47,6 +47,7 @@ library(ambiorix)
 
 app <- Ambiorix$new()
 
+# use slighe
 app$use(slighe())
 
 app$get("/", \(req, res) {
