@@ -8,7 +8,7 @@ Improved path matching for [ambiorix](https://ambiorix.dev) with
 
 :traffic_light: __Lengthy Explanation__
 
-Internally ambiorix must path to with patterns.
+Internally ambiorix must match paths with patterns.
 That is, if the user wants to handle `app$get("/:path")`
 (see parameters) then regular expressions must be used.
 The current implementation works for probably 99% of cases
