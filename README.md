@@ -12,7 +12,7 @@ Internally ambiorix must match paths with patterns.
 That is, if the user wants to handle `app$get("/:path")`
 (see parameters) then regular expressions must be used.
 The current implementation works for probably 99% of cases
-but in rare cases you may encounter some issue.
+but in rare places you may encounter some issues.
 
 This is because the job of converting paths to patterns
 is complicated. 
@@ -26,7 +26,8 @@ and compiler.
 Therefore it may take some time before ambiorix sees such
 a robust implementation: {slighe} is here to fill the gap
 in the meantime.
-It's not part of the main pacakge since it requires V8.
+It's not part of the main package since it requires an 
+installation of the V8 engine.
 
 ## Installation
 
