@@ -13,6 +13,8 @@ That is, if the user wants to handle `app$get("/:path")`
 (see parameters) then regular expressions must be used.
 The current implementation works for probably 99% of cases
 but in rare places you may encounter some issues.
+The trick implemented is simply that of lex, take the
+longer match.
 
 This is because the job of converting paths to patterns
 is complicated. 
